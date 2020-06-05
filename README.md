@@ -1,6 +1,6 @@
 # mascotas_react
 
-UI en react para proyecto mascotas
+Demo de UI modular en react para proyecto mascotas
 
 Abrir ventana de comandos en la carpeta, ejecutar:
 

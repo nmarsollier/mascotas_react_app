@@ -8,7 +8,7 @@
   "private": true,
   "dependencies": {
     "@types/jest": "25.2.3",
-    "@types/node": "14.0.4",
+    "@types/node": "14.0.11",
     "@types/react": "16.9.35",
     "@types/react-dom": "16.9.8",
     "@types/react-router-dom": "5.1.5",
@@ -16,7 +16,6 @@
     "bootstrap": "4.5.0",
     "jquery": "3.5.1",
     "mascotas_react_common": "git+https://github.com/nmarsollier/mascotas_react_common.git#master",
-    "mascotas_react_info": "git+https://github.com/nmarsollier/mascotas_react_info.git#master",
     "mascotas_react_pets": "git+https://github.com/nmarsollier/mascotas_react_pets.git#master",
     "mascotas_react_profile": "git+https://github.com/nmarsollier/mascotas_react_profile.git#master",
     "mascotas_react_provinces": "git+https://github.com/nmarsollier/mascotas_react_provinces.git#master",

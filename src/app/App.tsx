@@ -1,4 +1,4 @@
-import { StateInfo } from "mascotas_react_info";
+import { StateInfo } from "mascotas_react_store";
 import { NewPet, Pets } from "mascotas_react_pets";
 import { Profile } from "mascotas_react_profile";
 import { ChangeUserPassword, LoginUser, RegisterUser } from "mascotas_react_users";
