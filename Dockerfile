@@ -6,7 +6,8 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 RUN curl -L https://github.com/nmarsollier/mascotas_react_app/tarball/master | tar xz --strip=1
 
-RUN npm install --production
+RUN npm install -g npm-cache
+RUN npm-cache install
 RUN npm run build
 
 # Levantamos el contenido estatico con Nginx
