@@ -16,7 +16,7 @@ Desde un browser debemos abrir [localhost:4200](http://localhost:4200/)
 Podemos usar Docker para levantar este servidor, esta configuración es un build para producción, pero sirve para probarlo:
 
 ```bash
-docker build --no-cache -t mascotas-react https://raw.githubusercontent.com/nmarsollier/mascotas_react_app/master/Dockerfile
+docker build --no-cache -t mascotas-react-app https://raw.githubusercontent.com/nmarsollier/mascotas_react_app/master/Dockerfile
 
 # Mac || Windows
 docker run -it -d --name mascotas-react-app -p 4200:80 mascotas-react-app
